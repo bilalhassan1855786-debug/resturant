@@ -7,12 +7,12 @@ export default function Navbar() {
   const pathname = usePathname();
 
   const navItems = [
-    { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Recipes", path: "/recipes" },
-    { name: "Details", path: "/recipesdetails" }, // ✅ New Page Added
+    { name: "1. Home", path: "/" }, 
+    { name: "2. About", path: "/about" },
+    { name: "3. Recipes", path: "/recipes" },
+    { name: "4. Details", path: "/recipesdetails" }, // ✅ New Page Added
     
-    { name: "Contact", path: "/contact" },
+    { name: "5. Contact", path: "/contact" },
   ];
 
   return (

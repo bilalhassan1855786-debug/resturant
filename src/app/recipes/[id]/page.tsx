@@ -56,6 +56,35 @@ const recipes = [
       "Mix pasta with sauce and serve warm.",
     ],
   },
+{
+    
+  slug: "zinger-burger",
+    title: "7.Zinger Burger",
+    description: "Crispy fried chicken burger with spicy sauce.",
+    image: "/images/burger.jpg",
+    ingredients: [
+      "2 chicken fillets",
+      "Burger buns",
+      "Lettuce, tomato slices",
+      "Mayonnaise, ketchup",
+      "Oil for frying, salt, pepper",
+    ],
+    steps: [
+      "Marinate chicken with spices and salt.",
+      "Coat in flour and fry until golden and cooked.",
+      "Toast buns lightly.",
+      "Assemble burger with lettuce, tomato, sauce, and chicken fillet.",
+      "Serve hot.",
+    ],
+  }
+
+
+
+
+
+
+
+
 ];
 
 export default function RecipeDetailPage() {
@@ -76,7 +105,7 @@ export default function RecipeDetailPage() {
         <img
           src={recipe.image}
           alt={recipe.title}
-          className="w-full h-72 object-cover rounded-xl mb-6"
+          className="w-800 h-72 object-cover rounded-xl mb-6"
         />
         <h1 className="text-3xl font-bold text-orange-700 mb-4">{recipe.title}</h1>
         <p className="text-gray-700 mb-6">{recipe.description}</p>

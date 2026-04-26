@@ -1,4 +1,4 @@
-import { Ingredient } from "@/app/lib/types";
+import { Ingredient } from "@/lib/types";
 
 interface Props {
   ingredients: Ingredient[];

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Recipe } from "@/app/lib/types";
+import { Recipe } from "@/lib/types";
 
 interface Props {
   recipe: Recipe;

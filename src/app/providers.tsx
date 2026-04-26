@@ -1,7 +1,7 @@
 "use client";
 
 import { ReactNode, createContext, useState, useContext } from "react";
-import { Recipe } from "@/app/lib/types";
+import { Recipe } from "@/lib/types";
 
 interface FavoritesContextType {
   favorites: Recipe[];
